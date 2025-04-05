@@ -3,48 +3,41 @@
 PUBLIC "-//W3C//DTD SVG 1.1//EN"
        "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg viewBox="58 12 739 590" width="681px" height="578px" xmlns="http://www.w3.org/2000/svg" version="1.1">
-   <line x1="324" y1="343" x2="314" y2="343" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="203" y1="57" x2="193" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="314" y1="343" x2="203" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="316.5" y1="343" x2="320.03553390593" y2="346.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="316.5" y1="343" x2="320.03553390593" y2="339.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="60.535533905933" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="53.464466094067" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="73" y1="525" x2="63" y2="525" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="65" y1="57" x2="75" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="63" y1="525" x2="65" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="65.5" y1="525" x2="69.035533905933" y2="528.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="65.5" y1="525" x2="69.035533905933" y2="521.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="70" y1="57" x2="66.464466094067" y2="60.535533905933" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="70" y1="57" x2="66.464466094067" y2="53.464466094067" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="73" y1="545" x2="63" y2="545" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="66" y1="301" x2="76" y2="301" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="63" y1="545" x2="66" y2="301" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="65.5" y1="545" x2="69.035533905933" y2="548.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="65.5" y1="545" x2="69.035533905933" y2="541.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="71" y1="301" x2="67.464466094067" y2="304.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="71" y1="301" x2="67.464466094067" y2="297.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="609" y1="179" x2="599" y2="179" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="203" y1="57" x2="193" y2="57" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="599" y1="179" x2="203" y2="57" style="stroke:#cb0;stroke-width:1;"/>
-   <line x1="601.5" y1="179" x2="605.03553390593" y2="182.53553390593" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="601.5" y1="179" x2="605.03553390593" y2="175.46446609407" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="60.535533905933" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="53.464466094067" style="stroke:#cb0;stroke-width:2;"/>
-   <line x1="609" y1="398" x2="599" y2="398" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="203" y1="57" x2="193" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="599" y1="398" x2="203" y2="57" style="stroke:#b0b;stroke-width:1;"/>
-   <line x1="601.5" y1="398" x2="605.03553390593" y2="401.53553390593" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="601.5" y1="398" x2="605.03553390593" y2="394.46446609407" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="60.535533905933" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="198" y1="57" x2="201.53553390593" y2="53.464466094067" style="stroke:#b0b;stroke-width:2;"/>
-   <line x1="76" y1="401" x2="66" y2="401" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="65" y1="57" x2="75" y2="57" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="66" y1="401" x2="65" y2="57" style="stroke:#0b0;stroke-width:1;"/>
-   <line x1="68.5" y1="401" x2="72.035533905933" y2="404.53553390593" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="68.5" y1="401" x2="72.035533905933" y2="397.46446609407" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="70" y1="57" x2="66.464466094067" y2="60.535533905933" style="stroke:#0b0;stroke-width:2;"/>
-   <line x1="70" y1="57" x2="66.464466094067" y2="53.464466094067" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="324" y1="343" x2="314" y2="343" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="203" y1="57" x2="193" y2="57" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="314" y1="343" x2="203" y2="57" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="316.5" y1="343" x2="320.03553390593" y2="346.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="316.5" y1="343" x2="320.03553390593" y2="339.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="198" y1="57" x2="201.53553390593" y2="60.535533905933" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="198" y1="57" x2="201.53553390593" y2="53.464466094067" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="73" y1="525" x2="63" y2="525" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="65" y1="57" x2="75" y2="57" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="63" y1="525" x2="65" y2="57" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="65.5" y1="525" x2="69.035533905933" y2="528.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="65.5" y1="525" x2="69.035533905933" y2="521.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="70" y1="57" x2="66.464466094067" y2="60.535533905933" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="70" y1="57" x2="66.464466094067" y2="53.464466094067" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="73" y1="545" x2="63" y2="545" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="66" y1="301" x2="76" y2="301" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="63" y1="545" x2="66" y2="301" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="65.5" y1="545" x2="69.035533905933" y2="548.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="65.5" y1="545" x2="69.035533905933" y2="541.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="71" y1="301" x2="67.464466094067" y2="304.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="71" y1="301" x2="67.464466094067" y2="297.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="609" y1="398" x2="599" y2="398" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="203" y1="57" x2="193" y2="57" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="599" y1="398" x2="203" y2="57" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="601.5" y1="398" x2="605.03553390593" y2="401.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="601.5" y1="398" x2="605.03553390593" y2="394.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="198" y1="57" x2="201.53553390593" y2="60.535533905933" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="198" y1="57" x2="201.53553390593" y2="53.464466094067" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="76" y1="401" x2="66" y2="401" style="stroke:#333;stroke-width:1;"/>
+   <line x1="65" y1="57" x2="75" y2="57" style="stroke:#333;stroke-width:1;"/>
+   <line x1="66" y1="401" x2="65" y2="57" style="stroke:#333;stroke-width:1;"/>
+   <line x1="68.5" y1="401" x2="72.035533905933" y2="404.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="68.5" y1="401" x2="72.035533905933" y2="397.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="70" y1="57" x2="66.464466094067" y2="60.535533905933" style="stroke:#333;stroke-width:2;"/>
+   <line x1="70" y1="57" x2="66.464466094067" y2="53.464466094067" style="stroke:#333;stroke-width:2;"/>
    <rect width="91" height="20" x="324" y="293" style="fill:#007;stroke:black;"/>
    <text width="91" height="20" x="329" y="307" style="fill:#fff;" font-family="Arial" font-size="16px"> activity_logs</text>
    <rect width="91" height="20" x="324" y="313" style="fill:#aea;stroke:black;"/>
@@ -72,17 +65,17 @@ PUBLIC "-//W3C//DTD SVG 1.1//EN"
    <rect width="115" height="20" x="609" y="69" style="fill:none;stroke:black;"/>
    <text width="115" height="20" x="614" y="83" style="fill:black;" font-family="Arial" font-size="16px">title</text>
    <rect width="115" height="20" x="609" y="89" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="103" style="fill:black;" font-family="Arial" font-size="16px">description</text>
+   <text width="115" height="20" x="614" y="103" style="fill:black;" font-family="Arial" font-size="16px">author</text>
    <rect width="115" height="20" x="609" y="109" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="123" style="fill:black;" font-family="Arial" font-size="16px">author</text>
+   <text width="115" height="20" x="614" y="123" style="fill:black;" font-family="Arial" font-size="16px">published_date</text>
    <rect width="115" height="20" x="609" y="129" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="143" style="fill:black;" font-family="Arial" font-size="16px">published_date</text>
+   <text width="115" height="20" x="614" y="143" style="fill:black;" font-family="Arial" font-size="16px">file_url</text>
    <rect width="115" height="20" x="609" y="149" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="163" style="fill:black;" font-family="Arial" font-size="16px">file_url</text>
+   <text width="115" height="20" x="614" y="163" style="fill:black;" font-family="Arial" font-size="16px">image_url</text>
    <rect width="115" height="20" x="609" y="169" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="183" style="fill:black;" font-family="Arial" font-size="16px">created_by</text>
+   <text width="115" height="20" x="614" y="183" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
    <rect width="115" height="20" x="609" y="189" style="fill:none;stroke:black;"/>
-   <text width="115" height="20" x="614" y="203" style="fill:black;" font-family="Arial" font-size="16px">created_at</text>
+   <text width="115" height="20" x="614" y="203" style="fill:black;" font-family="Arial" font-size="16px">updated_at</text>
    <rect width="100" height="20" x="609" y="288" style="fill:#007;stroke:black;"/>
    <text width="100" height="20" x="614" y="302" style="fill:#fff;" font-family="Arial" font-size="16px"> simulations</text>
    <rect width="100" height="20" x="609" y="308" style="fill:#aea;stroke:black;"/>

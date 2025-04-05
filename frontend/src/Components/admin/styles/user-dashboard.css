@@ -1,0 +1,17 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.user-dashboard {
+    margin-top: 130px;
+    margin-bottom: 20;
+    border-radius: 20px;
+}
+
+.user-dashboard h2, .user-dashboard h4 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card {
+    background-color: #2b353f;
+    background: linear-gradient(135deg, #071227 0%, #142134 100%);
+}

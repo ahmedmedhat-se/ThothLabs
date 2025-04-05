@@ -1,0 +1,23 @@
+{
+    "company": {
+        "name": "ThothLabs",
+        "description": "Team Thoth is a multidisciplinary group of scientific researchers and developers focused on advancing space research and creating innovative web and mobile solutions. We bridge science and technology to deliver impactful, user-friendly applications that inspire and educate.",
+        "contact": {
+            "phone": "+01000000000",
+            "address": "Alexandria, Egypt"
+        }
+    },
+    "services": {
+        "news": "Get Updated News About Space!",
+        "cosmic-explorer": "Explore Our Solar System",
+        "pha-explorer": "Explore The Near Earth Objects",
+        "workspace": "Create Your Own Community!"
+    },
+    "authors": {
+        "ahmed-medhat": "Ahmed Medhat",
+        "steven-gerges": "Steven Gerges",
+        "marwan-shreef": "Marwan Shreef",
+        "tarek": "Marwan",
+        "nour-saad": "Nour Saad"
+    }
+}

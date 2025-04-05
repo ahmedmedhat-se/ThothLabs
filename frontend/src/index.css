@@ -1,0 +1,82 @@
+/* Styling The Whole Document */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Moontime&family=Now:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Styling The Root Node Of The Document */
+html {
+  scroll-behavior: smooth;
+  /* Variables For Using Different RGB Colors All Over The Webpage */
+  --primary-clr: #071324;
+  --primary-medium-clr: #fff;
+  --primary-light-clr: #fff;
+  --bg-clr-1: #ffffff;
+  --dark-heading-clr: #071324;
+  --dark-text-clr: #fff;
+  --light-heading-clr: #fff;
+  --light-text-clr: #fff;
+}
+
+/* End Of Styling The Root Node Of The Document */
+
+/* Allow scrolling but hide scrollbar for "Chrome, Safari, Edge" Strt */
+html,
+body {
+  overflow: auto;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+/* Allow scrolling but hide scrollbar for "Chrome, Safari, Edge" End */
+
+/* Global CSS Styles Section Starts*/
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.top-button {
+  background-color: #420d43;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.top-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Global CSS Styles Section Ends*/
+
+/* Body Section Styling Starts */
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+/* Body Section Styling Ends */

@@ -1,0 +1,68 @@
+/* Cosmic-explorer Component Styling Starts */
+.cosmic-container {
+    width: 100%;
+    background-color: #080a0c;
+    background: linear-gradient(135deg, #0f1217 0%, #0d1117 100%);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosmic-explorer {
+    width: 100%;
+    margin: 50px auto;
+    margin-top: 150px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #071324;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cosmic-explorer h2 {
+    color: #fff;
+    font-family: 'Dancing Script';
+}
+
+.cosmic-explorer h2 span {
+    color: #7a639c;
+    font-family: 'Dancing Script';
+}
+
+.cosmic-explorer iframe {
+    height: 100vh;
+}
+
+.cosmic-explorer .btn {
+    margin-top: 20px;
+    border: none;
+    background: rgb(19, 3, 61);
+    background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-right: 8px;
+}
+
+/* Media Query - Starts */
+@media(max-width: 968px) {
+    .cosmic-container {
+        width: 100%;
+        background-color: #080a0c;
+        background: linear-gradient(135deg, #0f1217 0%, #0d1117 100%);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cosmic-explorer {
+        padding: 20px;
+        border: none;
+        background-color: #071324;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Media Query - Ends */
+/* Cosmic-explorer Component Styling Ends */

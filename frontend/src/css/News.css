@@ -1,0 +1,176 @@
+/* News-section Component Styling Starts */
+.news-container {
+    width: 100%;
+    background-color: #080a0c;
+    background: linear-gradient(135deg, #0f1217 0%, #0d1117 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-section {
+    width: 100%;
+    margin: 50px auto;
+    margin-top: 120px;
+    padding: 30px;
+    border: none;
+}
+
+.news-section h2 {
+    color: #fff;
+    font-family: 'Dancing Script';
+    text-align: center;
+    transition: 1s;
+}
+
+.news-section h2:hover {
+    color: #7a639c;
+}
+
+.news-section .card {
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #071324;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.news-section .btn {
+    margin-top: 20px;
+    border: none;
+    background: rgb(19, 3, 61);
+    background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-right: 8px;
+}
+
+.news-section .card h4 {
+    color: #7f5d5d;
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+
+/* Media Query - Starts */
+@media(max-width: 968px) {
+    .news-section {
+        padding: 5px;
+        margin-top: 120px;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+
+    .news-section .card {
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        background-color: #071324;
+        box-shadow: 0 5px 10px rgb(0, 0, 0);
+    }
+}
+
+/* News.css */
+
+/* Search bar styling */
+.search-bar {
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #00c1b0;
+    box-shadow: 0 4px 10px rgba(0, 193, 176, 0.3);
+}
+
+/* Pagination button styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page-button:hover {
+    background-color: #0056b3;
+}
+
+.page-button.active {
+    background-color: #00c1b0;
+}
+
+/* Card layout */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title,
+.card-subtitle,
+.card-text {
+    color: #f0f0f0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .search-bar {
+        max-width: 100%;
+    }
+
+    .page-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Media Query - Ends */
+/* News-section Section Styling Ends */

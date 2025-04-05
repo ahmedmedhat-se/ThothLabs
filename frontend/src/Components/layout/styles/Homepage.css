@@ -1,0 +1,237 @@
+/* Header Component Styling Starts */
+nav,
+.navbar .offcanvas-end {
+    background: #071324;
+}
+
+nav .navbar-brand strong,
+.navbar .offcanvas-end .offcanvas-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav .navbar-toggler {
+    background: rgb(30, 0, 36);
+    background: linear-gradient(90deg, rgb(44, 10, 136) 0%, rgb(83, 3, 99) 100%);
+    border: none;
+    font-size: 1.5rem;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link {
+    margin-right: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #420d43;
+    transition: width 0.3s ease-in-out;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link:hover::before {
+    width: 100%;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+    color: #420d43;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Header Component Styling Ends */
+/* Homepage Component Styling Starts */
+header {
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/81/51/2e/81512ebf225385110588a036b50e3451.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 250px;
+}
+
+header h1 {
+    color: #9b90aa;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+}
+
+header h4 {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    color: #fff;
+}
+
+header h4 span {
+    color: #ffffff;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+
+header .btn {
+    margin-top: 20px;
+    border: none;
+    color: #000;
+    background: rgb(19, 3, 61);
+    background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+    text-decoration: none;
+    font-weight: bold;
+    width: 50%;
+}
+
+header .btn:hover {
+    margin-top: 20px;
+    border: none;
+    color: #000;
+    background: rgb(15, 3, 46);
+    background: linear-gradient(220deg, rgba(148, 187, 233, 1) 50%, rgba(238, 174, 202, 1) 100%);
+    text-decoration: none;
+}
+
+header p {
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    padding: 0 20px 20px 20px;
+}
+
+/* Header Section Styling Ends */
+/* Header Component Styling Ends */
+
+/* Homepage Component Styling Starts */
+.homepage-section {
+    background-color: #080a0c;
+    background: linear-gradient(135deg, #0f1217 0%, #0d1117 100%);
+    padding: 50px;
+}
+
+.homepage-section h2 {
+    color: #fff;
+    margin: 0;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    text-align: center;
+}
+
+.homepage-section .card {
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #071324;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-section .card h3 {
+    color: #fff;
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+
+.homepage-section .card h3 span {
+    color: #7a639c;
+    font-family: 'Dancing Script';
+}
+
+.homepage-section .card p {
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+
+.homepage-section .card .btn {
+    border: none;
+    background: rgb(19, 3, 61);
+    background: linear-gradient(223deg, rgba(238, 174, 202, 1) 47%, rgba(148, 187, 233, 1) 100%);
+    text-decoration: none;
+    transition: all .4s ease;
+    margin-right: 8px;
+}
+
+.homepage-section .card-body .card-title {
+    font-size: 35px;
+}
+
+.card-body .card-text {
+    font-size: 20px;
+}
+
+.card-body .card-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+
+.card-body h4 {
+    color: #7f5d5d;
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+
+.btn:hover {
+    border: 1px solid rgb(19, 3, 61);
+}
+
+/* Media Query - Starts */
+@media(max-width: 968px) {
+    header {
+        padding: 200px 100px;
+    }
+
+    header h1 {
+        color: #9b90aa;
+        font-weight: bolder;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    header h4 {
+        font-family: 'Dancing Script';
+        font-size: 35px;
+        color: #fff;
+        text-align: center;
+    }
+
+    header h4 span {
+        color: #ffffff;
+        font-family: 'Dancing Script';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    header p {
+        color: #fff;
+        font-family: 'Dancing Script';
+        font-size: 30px;
+        padding: 0 20px 20px 20px;
+        text-align: center;
+    }
+
+    header .btn {
+        width: 100%;
+    }
+
+    .homepage-section {
+        background-color: #080a0c;
+        background: linear-gradient(135deg, #0f1217 0%, #0d1117 100%);
+        padding: 10px;
+    }
+}
+
+/* Media Query - Ends */
+/* Homepage Component Styling Ends */
